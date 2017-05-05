@@ -92,3 +92,9 @@ cd ...
 ```
 
 You should play with these examples! Break them. Improve them. Make a pull request.
+
+## Why not just use Promises?
+Promises are the formalization of callback culture into a language feature. This formalization makes async and await possible. 
+
+## What about using `then` to chain together functions that return Promises? 
+Functions are great when you give them input, you get some output. In that case they are discreet pieces of functionality. When their input is scattered all over different parts of an object, it’s tough to track down their requirements and make sure certain things run in the correct order. It's the classic separation of concerns problem and why globals are discouraged.
