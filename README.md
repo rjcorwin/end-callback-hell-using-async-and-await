@@ -1,13 +1,13 @@
 # The End of Callback Hell in Javascript
-Use of async, await, and Promise in Node.js v7 mark an end to Callback Hell in Javascript.
+Use of async, await, and Promise in Node.js v7 mark an end to Callback Hell in Javascript. This also works in a Web Browser if your code is transpiled using libraries like Babel.js or Typescript.
 
 Turn Callback Hell...
 ```javascript
-http.get('foo', function(response) {
+http.get('https://api.github.com/repos/nodejs/node', function(response) {
   console.log(response)
-  http.get('bar', function(response) {
+  http.get('https://api.github.com/repos/nodejs/http2', function(response) {
     console.log(response)
-    http.get('baz', function(response) {
+    http.get('https://api.github.com/repos/nodejs/docker-node', function(response) {
       console.log(response)
     })
   })
@@ -16,11 +16,11 @@ http.get('foo', function(response) {
 
 Into synchronous-looking yet non-blocking Heaven .. 
 ```javascript
-var response = await http.get('foo')
+var response = await http.get('https://api.github.com/repos/nodejs/node')
 console.log(response)
-var response = await http.get('bar')
+var response = await http.get('https://api.github.com/repos/nodejs/http2')
 console.log(response)
-var response = await http.get('baz')
+var response = await http.get('https://api.github.com/repos/nodejs/docker-node')
 console.log(response)
 ```
 
