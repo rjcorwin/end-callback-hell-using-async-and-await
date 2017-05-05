@@ -30,10 +30,10 @@ The files you'll be interested in reading are located in the following locations
 ```
 .
 ├── basic-example
-│   ├── index.js
-└── build-async-enabled-functions
-|   ├── index.js
-├── advanced-usage-ftw
+│   └── index.js
+├── build-async-enabled-functions
+|   └── index.js
+└── advanced-usage-ftw
     └── src
         ├── error-handling.js
         └── index.js
