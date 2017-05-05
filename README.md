@@ -41,7 +41,7 @@ The files you'll be interested in reading are located in the following locations
 
 ## Run the examples 
 
-## Prerequisites
+### Prerequisites
 You can run two of the examples with Git and Node.js Installed on your system, but if you use Docker you can run the third advanced example and also not have to install Node 7 on your computer.
 - Node.js 7 (http://nodejs.org/)
 - Git  (https://git-scm.com/).
