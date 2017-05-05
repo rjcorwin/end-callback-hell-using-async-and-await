@@ -1,5 +1,5 @@
 # End Callback Hell using Async and Await 
-Use of async, await, and Promise in Node.js v7 mark an end to Callback Hell in Javascript. This also works in a Web Browser if your code is transpiled using libraries like Babel.js or Typescript.
+Use of async, await, and Promise in Node.js v7 mark an end to Callback Hell in Javascript. This also works in a Web Browser if your code is transpiled using libraries like Babel.js or Typescript. If you're not sure what a callback is, [watch this video](https://www.youtube.com/watch?v=M6Q0fqeJPMU).
 
 Turn Callback Hell...
 ```javascript
