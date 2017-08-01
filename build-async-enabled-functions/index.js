@@ -11,7 +11,7 @@ const sleep = function (delay) {
   })
 }
 
-// Our app function. Note how our use of await is encapsulated by a function that uses async.
+// Our app function. Note that await has to be encapsulated by a function that uses async.
 async function app () {  
  
   console.log('Waiting 3 seconds...')
