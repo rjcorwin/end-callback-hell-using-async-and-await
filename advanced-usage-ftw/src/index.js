@@ -13,8 +13,9 @@ const dbReady = () => new Promise(async (res, rej) => {
   }
 })
   
-// A classic sleep function to pause execution.
-const sleep = (ms) => new Promise(async (res, rej) => { 
+// A classic sleep function to pause execution. Note that the promise callback
+// doesn't need to be async, since we aren't using await inside it.
+const sleep = (ms) => new Promise((res, rej) => { 
   setTimeout(res, ms)
 })
 
